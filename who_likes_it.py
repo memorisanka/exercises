@@ -13,7 +13,7 @@
 # Note: For 4 or more names, the number in "and 2 others" simply increases.
 
 
-def likes(names):
+def likes(names: list) -> str:
     if not names:
         return "no one likes this"
     elif len(names) == 1:

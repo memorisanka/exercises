@@ -11,7 +11,7 @@
 # non-zero integers will be passed into the function.
 
 
-def narcissistic(value):
+def narcissistic(value: int) -> bool:
     values = list(str(value))
     n = len(values)
     result = 0
